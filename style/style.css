@@ -7,6 +7,19 @@
     overflow: hidden;
 }
 
+#loader {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+#loader img {
+    width: 100px; /* Adjust the size as needed */
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -14,7 +27,7 @@
     gap: 50px;
     align-items: center;
     height: 100vh;
-    background-image: url(/assets/ornament.jpg);
+    background-image: url(/assets/ornamentImproved.jpg);
     background-size: cover;
 }
 
@@ -54,7 +67,7 @@
     justify-content: center;
     flex-direction: column;
     color: black;
-    background-image: url(/assets/ornament2.png);
+    background-image: url(/assets/ornament2Improved.jpg);
     background-size: cover;
     height: 100vh;
     gap: 50px;
@@ -128,7 +141,7 @@ p {
     height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url(/assets/ornament2.png);
+    background-image: url(/assets/ornament2Improved.jpg);
     background-size: cover;
 }
 

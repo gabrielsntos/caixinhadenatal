@@ -5,43 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caixinha de Natal Sofia</title>
     <link rel="stylesheet" href="./style/style.css">
+    <script src="main.js"></script>
 </head>
 <body>
-    <header id="header" class="header">
-        <h1 class="header__titulo">Let's be greatful!</h1>
-        <div class="header__recado__container">
-            <p class="header__recado__texto1">
-                Prezado condômino,</p>
-            <a class="header__recado__texto2" href="#main">
-                temos um recado importante para você.
-            </a>
-        </div>
-    </header>
-    <main id="main" class="main">
-        <section class="main__section">
-            <div class="main__section__texto__container1">
-                <p><span class="infuriating">Gostariamos de agradecer por</span> mais um ano juntos e desejar <span
-                        class="infuriating">um feliz natal e um maravilhoso ano novo!</span></p>
+    <div id="loader">
+        <img src="./assets/loader.gif" alt="Loading...">
+    </div>
+    <div id="content">
+        <header id="header" class="header">
+            <h1 class="header__titulo">Let's be greatful!</h1>
+            <div class="header__recado__container">
+                <p class="header__recado__texto1">
+                    Prezado condômino,</p>
+                <a class="header__recado__texto2" href="#main">
+                    temos um recado importante para você.
+                </a>
             </div>
-            <div class="main__section__texto__container2">
-                <p>Como de costume, encontra-se na <span class="infuriating2">portaria a caixinha</span> de natal, junto
-                    com a lista de identificação.
-                </p>
-            </div>
-            <div class="main__section__texto__container3">
-                <p>Para aqueles que preferirem, encontra-se abaixo a opção de PIX para os funcionários.</p>
-            </div>
-            <a class="main__texto__container2__pix" href="#footer">PIX</a>
-        </section>
-    </main>
-    <footer id="footer" class="footer">
-        <section class="footer__content">
-            <img class="QRCode" src="./assets/qrcode-pix.png" alt="Pix">
-            <p>Chave: 11984127956</p>
-            <a href="#header">
-                <img class="gobackbutton" src="./assets/goBackButton.png" alt="Go Back">
-            </a>
-        </section>
-    </footer>
+        </header>
+        <main id="main" class="main">
+            <section class="main__section">
+                <div class="main__section__texto__container1">
+                    <p><span class="infuriating">Gostariamos de agradecer por</span> mais um ano juntos e desejar <span
+                            class="infuriating">um feliz natal e um maravilhoso ano novo!</span></p>
+                </div>
+                <div class="main__section__texto__container2">
+                    <p>Como de costume, encontra-se na <span class="infuriating2">portaria a caixinha</span> de natal, junto
+                        com a lista de identificação.
+                    </p>
+                </div>
+                <div class="main__section__texto__container3">
+                    <p>Para aqueles que preferirem, encontra-se abaixo a opção de PIX para os funcionários.</p>
+                </div>
+                <a class="main__texto__container2__pix" href="#footer">PIX</a>
+            </section>
+        </main>
+        <footer id="footer" class="footer">
+            <section class="footer__content">
+                <img class="QRCode" src="./assets/qrcode-pix.png" alt="Pix">
+                <p>Chave: 11984127956</p>
+                <a href="#header">
+                    <img class="gobackbutton" src="./assets/goBackButton.png" alt="Go Back">
+                </a>
+            </section>
+        </footer>
+    </div>
 </body>
 </html>
